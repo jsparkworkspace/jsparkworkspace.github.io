@@ -1,2581 +1,862 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.1.5 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
-<meta name="generator" content="Jekyll v4.3.2">
-<meta property="og:title" content="Your awesome title">
-<meta name="author" content="GitHub User">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-<link rel="canonical" href="http://localhost:4000/">
-<meta property="og:url" content="http://localhost:4000/">
-<meta property="og:site_name" content="Your awesome title">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="Your awesome title">
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Blog | Starter Kit</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Blog" />
+<meta name="author" content="<firstname> <lastname>" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
+<meta property="og:description" content="The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Starter Kit" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"GitHub User"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+{"name":"Starter Kit","author":{"@type":"Person","name":"<firstname> <lastname>"},"@type":"WebSite","description":"The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.","url":"http://localhost:4000/","headline":"Blog","dateModified":"2024-01-02T11:35:40+09:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"<firstname> <lastname>"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="icon" href="">
-  <link rel="canonical" href="http://localhost:4000">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
-<!-- and it's easy to individually load additional languages -->
-<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+  
+
+  
+
+
+
+  <meta name="theme-color" content="rgb(25,55,71)">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Starter Kit">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="Starter Kit">
+
+<meta name="generator" content="Hydejack v9.1.5" />
+
+
+<link rel="alternate" href="http://localhost:4000/" hreflang="en">
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Starter Kit" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
 
 
 
 
 
 
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script");n.src=e,t&&a(n,"load",t,{once:!0});t=c.scripts[0];return t.parentNode.insertBefore(n,t),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2024-01-02T17:48:53+09:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
+
+
+<!--[if gt IE 8]><!---->
+
+  
 
 
 
 
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.5.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
 
 
 
+  <style id="_pageStyle">
 
-
-
-
-
-
-<script>
-// Init highlight js
-document.addEventListener('DOMContentLoaded', function(event) {
-  var els = document.querySelectorAll('pre code')
-
-  function addLangData(block) {
-    var outer = block.parentElement.parentElement.parentElement;
-    var lang = block.getAttribute('data-lang');
-    for (var i = 0; i < outer.classList.length; i++) {
-      var cls = outer.classList[i];
-      if (cls.startsWith('language-')) {
-        lang = cls;
-        break;
-      }
-    }
-    if (!lang) {
-      cls = block.getAttribute('class');
-      lang = cls ? cls.replace('hljs ', '') : '';
-    }
-    if (lang.startsWith('language-')) {
-      lang = lang.substr(9);
-    }
-    block.setAttribute('class', 'hljs ' + lang);
-    block.parentNode.setAttribute('data-lang', lang);
-  }
-
-  function addBadge(block) {
-    var enabled = ('true' || 'true').toLowerCase();
-    if (enabled == 'true') {
-      var pre = block.parentElement;
-      pre.classList.add('badge');
-    }
-  }
-
-  function handle(block) {
-    addLangData(block);
-    addBadge(block)
-    hljs.highlightBlock(block);
-  }
-
-  for (var i = 0; i < els.length; i++) {
-    var el = els[i];
-    handle(el);
-  }
-});
-</script>
-
-<style>
-  /* code language badge */
-  pre.badge::before {
-    content: attr(data-lang);
-    color: #fff;
-    background-color: #ff4e00;
-    padding: 0 .5em;
-    border-radius: 0 2px;
-    text-transform: uppercase;
-    text-align: center;
-    min-width: 32px;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-  }
-
-  /* fix wrong badge display for firefox browser */
-  code > table pre::before {
-    display: none;
-  }
-</style>
-<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
-<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
-<style>
-  .pswp .pswp__container .pswp__img {
-    background-color: white;
-  }
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.5);--accent-color-highlight: rgba(79, 177, 186, 0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
 </style>
 
-<script>
-  function initPhotoSwipe() {
-    let customOptions = {};
 
-    try {
-      const data = ``.replaceAll("=>", ":");
-      customOptions = JSON.parse(data);
-    } catch (e) {
-      console.info("Invalid custom photo previewer options! " + e.message);
-    }
+<!--<![endif]-->
 
-    // Define object and gallery options
-    const options = Object.assign(
-      {
-        gallery: "section.main",
-        children: "a.photo-swipe",
-        photo_scale: 2,
-        // dynamic import is not supported in UMD version
-        pswpModule: PhotoSwipe,
-      },
-      customOptions
-    );
 
-    const galleryEl = document.querySelector(options.gallery);
-    if (!galleryEl) {
-      return;
-    }
 
-    const imgEls = [];
-    const els = galleryEl.querySelectorAll("img:not(.emoji)");
-    els.forEach((el) => {
-      if (el.src.trim() == "") {
-        return;
-      }
-      if (!imgEls.includes(el)) {
-        imgEls.push(el);
-      }
-    });
 
-    if (imgEls.length === 0) {
-      return;
-    }
-
-    imgEls.forEach((imgEl) => {
-      imgEl.outerHTML = `
-      <a class="photo-swipe"
-        href="${imgEl.src}"
-        data-pswp-width="${
-          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
-        }"
-        data-pswp-height="${
-          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
-        }"
-        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
-        target="_blank">
-        ${imgEl.outerHTML}
-      </a>`;
-    });
-
-    // Initialize PhotoSwipe 5
-    var lightbox = new PhotoSwipeLightbox(options);
-
-    lightbox.init();
-  }
-
-  window.addEventListener("load", initPhotoSwipe);
-</script>
-<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<header class="site-header site-header-transparent" role="banner">
-
-  <div class="wrapper">
-    <div class="site-header-inner">
-<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
-  <img class="site-favicon" title="Your awesome title" src="" onerror="this.style.display='none'">
-  JSDEV
-</a>
-</span><nav class="site-nav">
-          <input type="checkbox" id="nav-trigger" class="nav-trigger">
-          <label for="nav-trigger">
-            <span class="menu-icon">
-              <svg viewbox="0 0 18 15" width="18px" height="15px">
-                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
-              </svg>
-            </span>
-          </label>
-
-          <div class="trigger">
-<a class="page-link" href="/about.html">ABOUT</a><a class="page-link" href="/archives.html">ARCHIVES</a><a class="page-link" href="/categories.html">CATEGORIES</a><a class="page-link" href="/">HOME</a><a class="page-link" href="/tags.html">TAGS</a>
-
-
-
-
-
-
-
-
-
-<span class="page-link">
-
-
-
-<div id="google_translate_element" style="display: none;">
-</div>
-
-<span class="ct-language">
-  <ul class="list-unstyled ct-language-dropdown">
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  <hy-drawer
+  id="_drawer"
+  class="cover"
+  side="left"
+  threshold="10"
+  noscroll
+  opened
+>
+  <header id="_sidebar" class="sidebar" role="banner">
     
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/img/logo.png" class="avatar" alt="Starter Kit" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">Starter Kit</h2></a>
+    
+    
+      <p class="">
+        Change <code class="language-plaintext highlighter-rouge">tagline</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code>
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
       <li>
-        <a href="#" class="lang-select" data-lang="en">
+        <a
+          id="_drawer--opened"
+          href="/example/"
+          class="sidebar-nav-item "
           
-          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
-          
+        >
+          Example
         </a>
       </li>
     
+      
       <li>
-        <a href="#" class="lang-select" data-lang="fr">
+        <a
           
-          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          href="/docs/"
+          class="sidebar-nav-item "
           
+        >
+          Documentation
         </a>
       </li>
     
+      
       <li>
-        <a href="#" class="lang-select" data-lang="zh-CN">
+        <a
           
-          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          href="/about/"
+          class="sidebar-nav-item "
           
+        >
+          About
         </a>
       </li>
     
-      <li>
-        <a href="#" class="lang-select" data-lang="ja">
-          
-          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="#" class="lang-select" data-lang="ko">
-          
-          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="#" class="lang-select" data-lang="ru">
-          
-          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
-          
-        </a>
-      </li>
-    
-  </ul>
-</span>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
-  }, 'google_translate_element');
-
-  // Links to cross-origin destinations are unsafe
-  var gll = document.getElementsByClassName('goog-logo-link')[0];
-  if (gll) {
-    gll.setAttribute('rel', 'noopener');
-  }
-
-  function restoreLang() {
-    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
-    if (!iframe) return;
-
-    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-    var restore_el = innerDoc.getElementsByTagName("button");
-
-    for (var i = 0; i < restore_el.length; i++) {
-      if (restore_el[i].id.indexOf("restore") >= 0) {
-        restore_el[i].click();
-        var close_el = innerDoc.getElementsByClassName("goog-close-link");
-        close_el[0].click();
-        return;
-      }
-    }
-  }
-
-  function triggerHtmlEvent(element, eventName) {
-    var event;
-    if (document.createEvent) {
-      event = document.createEvent('HTMLEvents');
-      event.initEvent(eventName, true, true);
-      element.dispatchEvent(event);
-    } else {
-      event = document.createEventObject();
-      event.eventType = eventName;
-      element.fireEvent('on' + event.eventType, event);
-    }
-  }
-
-  var googleCombo = document.querySelector("select.goog-te-combo");
-  var langSelect = document.querySelector('.ct-language');
-  langSelect.addEventListener('click', function(event) {
-    if (!event.target) {
-      return;
-    }
-
-    var selected = document.querySelector('.ct-language .ct-language-selected');
-    if (selected) {
-      selected.classList.remove('ct-language-selected');
-    }
-
-    var target = event.target;
-    while (target && target !== langSelect ) {
-      if (target.matches('.lang-select')) {
-        break;
-      }
-      target = target.parentElement;
-    }
-
-    if (target && target.matches('.lang-select')) {
-      var lang = target.getAttribute('data-lang');
-      if (googleCombo.value == lang) {
-        restoreLang();
-      } else {
-        target.parentElement.classList.add('ct-language-selected');
-        googleCombo.value = lang;
-        triggerHtmlEvent(googleCombo, 'change');
-      }
-    }
-
-    event.preventDefault();
-  });
-}
-</script>
-
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
-</span>
-</div>
-        </nav>
-</div>
-  </div>
-</header>
-
-<script>
-  function initHeader() {
-    var lastScrollY = getScrollPos().y;
-    var documentElement = document.documentElement;
-
-    function storeScrollData() {
-      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
-
-      if (y <= 0) {
-        scrollStatus = "top";
-      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
-        scrollStatus = "bottom";
-      } else {
-        var isScrollDown = (y - lastScrollY > 0) ? true : false;
-        scrollStatus = isScrollDown ? "down" : "up";
-      }
-
-      lastScrollY = y;
-      documentElement.setAttribute("data-scroll-status", scrollStatus);
-    }
-
-    window.addEventListener('scroll', function(e) {
-      storeScrollData();
-    });
-
-    storeScrollData();
-  }
-  document.addEventListener('DOMContentLoaded', initHeader);
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="page-banner">
-    <div class="page-banner-img">
-<div style="background-image: url(/Your%20image%20url)"></div>
-        <img class="img-placeholder" src="/Your%20image%20url">
-</div>
-    <div class="wrapper">
-      <div class="page-banner-inner"><div class="page-banner-default">
-            <h1 class="page-banner-heading">
-              JS Development Blog
-            </h1>
-            <h2 class="page-banner-subheading">
-              personal study journal
-            </h2>
-          </div></div>
-    </div>
-  </section><script>
-  function hashLocate(hashValue) {
-    hashValue = hashValue.replace(/^.*#h-/, '');
-    hashValue = decodeURIComponent(hashValue);
-    var element = document.getElementById(hashValue);
-
-    if (!element) {
-      return;
-    }
-
-    var header = document.querySelector('header.site-header');
-    var headerRect = header.getBoundingClientRect();
-    var headerTop = Math.floor(headerRect.top);
-    var headerHeight = Math.floor(headerRect.height);
-    var scrollPos = getScrollPos();
-    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
-
-    if (offsetY == scrollPos.y) {
-      return;
-    }
-
-    if (headerTop == 0  && offsetY > scrollPos.y) {
-      offsetY += headerHeight + 2;
-    } else if (headerTop < 0  && offsetY < scrollPos.y) {
-      offsetY -= headerHeight - 2;
-    }
-
-    smoothScrollTo(offsetY);
-  }
-
-  // The first event occurred
-  window.addEventListener('load', function(event) {
-    if (window.location.hash) {
-      hashLocate(window.location.hash);
-    }
-  });
-
-  // The first event occurred
-  window.addEventListener('click', function(event) {
-    if (event.target.tagName.toLowerCase() == 'a') {
-      hashLocate(event.target.getAttribute('href'));
-    }
-  });
-</script>
-<div class="theme-toggle">
-  <input type="checkbox" id="theme-switch">
-  <label for="theme-switch">
-    <div class="toggle"></div>
-    <div class="names">
-      <p class="light">Light</p>
-      <p class="dark">Dark</p>
-    </div>
-  </label>
-</div>
-
-
-
-
-<script>
-  (function() {
-    var sw = document.getElementById('theme-switch');
-    var html = document.getElementsByTagName('html')[0];
-    var nightModeOption = ('auto' || 'auto').toLowerCase();
-    var storage = nightModeOption === 'manual'
-        ? localStorage
-        : sessionStorage;
-    var themeData = loadThemeData();
-
-    function saveThemeData(data) {
-      storage.setItem('theme', JSON.stringify(data));
-    }
-
-    function loadThemeData() {
-      var data = storage.getItem('theme');
-      try {
-        data = JSON.parse(data ? data : '');
-      } catch(e) {
-        data = { nightShift: undefined, autoToggleAt: 0 };
-        saveThemeData(data);
-      }
-      return data;
-    }
-
-    function handleThemeToggle(nightShift) {
-      themeData.nightShift = nightShift;
-      saveThemeData(themeData);
-      html.dataset.theme = nightShift ? 'dark' : 'light';
-      setTimeout(function() {
-        sw.checked = nightShift ? true : false;
-      }, 50);
-    }
-
-    function autoThemeToggle() {
-      // Next time point of theme toggle
-      var now = new Date();
-      var toggleAt = new Date();
-      var hours = now.getHours();
-      var nightShift = hours >= 19 || hours <=7;
-
-      if (nightShift) {
-        if (hours > 7) {
-          toggleAt.setDate(toggleAt.getDate() + 1);
-        }
-        toggleAt.setHours(7);
-      } else {
-        toggleAt.setHours(19);
-      }
-
-      toggleAt.setMinutes(0);
-      toggleAt.setSeconds(0);
-      toggleAt.setMilliseconds(0)
-
-      var delay = toggleAt.getTime() - now.getTime();
-
-      // auto toggle theme mode
-      setTimeout(function() {
-        handleThemeToggle(!nightShift);
-      }, delay);
-
-      return {
-        nightShift: nightShift,
-        toggleAt: toggleAt.getTime()
-      };
-    }
-
-    // Listen the theme toggle event
-    sw.addEventListener('change', function(event) {
-      handleThemeToggle(event.target.checked);
-    });
-
-    if (nightModeOption == 'auto') {
-      var data = autoThemeToggle();
-
-      // Toggle theme by local setting
-      if (data.toggleAt > themeData.autoToggleAt) {
-        themeData.autoToggleAt = data.toggleAt;
-        handleThemeToggle(data.nightShift);
-      } else {
-        handleThemeToggle(themeData.nightShift);
-      }
-    } else if (nightModeOption == 'manual') {
-      handleThemeToggle(themeData.nightShift);
-    } else {
-      var nightShift = themeData.nightShift;
-      if (nightShift === undefined) {
-        nightShift = nightModeOption === 'on';
-      }
-      handleThemeToggle(nightShift);
-    }
-  })();
-</script>
-<div id="click-to-top" class="click-to-top">
-  <i class="fa fa-arrow-up"></i>
-</div>
-<script>
-  (function () {
-    const clickToTop = document.getElementById('click-to-top');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
-        clickToTop.classList.add('show')
-      }else {
-        clickToTop.classList.remove('show')
-      }
-    });
-    clickToTop.addEventListener('click', () => {
-      window.smoothScrollTo(0);
-    });
-  })();
-</script>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="framework">
-  <section class="main">
-
-     <div class="articles">
   
-
-  
-
-
-
-  
-
-
-
-
-<div class="pagination">
-  <!-- Post list links -->
-  <ul class="post-list z-image-style">
-    <!-- Top list item -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item top-post">
-  <h2 class="post-title">
-    <a class="post-link" href="/jekyll/2015/01/01/welcome-to-jekyll.html">
-      Welcome to Jekyll!<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Jan 01, 2015</span><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Jeffrey</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/jekyll/2015/01/01/welcome-to-jekyll.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(https://bit.ly/3xTmdUP); height: 160px"></div>
-    </a><a class="post-text" href="/jekyll/2015/01/01/welcome-to-jekyll.html">
-      <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the _posts dire... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags">
-<a class="post-tag" href="/tags.html#jekyll">#jekyll</a><a class="post-tag" href="/tags.html#theme">#theme</a><a class="post-tag" href="/tags.html#yat">#yat</a>
-</div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item top-post">
-  <h2 class="post-title">
-    <a class="post-link" href="/markdown/2017/06/10/quick-mardown-example.html">
-      Quick markdown example<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Jun 10, 2017</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/markdown/2017/06/10/quick-mardown-example.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/markdown/2017/06/10/quick-mardown-example.html">
-      <p>Paragraphs are separated by a blank line.
-
-2nd paragraph. Italic, bold, and monospace. Itemized lists
-look like:
-
-
-  this one
-  that one
-  the other one
-
-
-Note that — not considering the asterisk — the actual text
-content starts at 4-columns in.
-
-
-  Block quotes are
-written like so.
-
-  They can span multiple paragraphs,
-if you like.
-
-
-Use 3 dash... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#example">#example</a></div>
-</li>
-<!-- Normal list item -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/jekyll/update/2023/11/20/welcome-to-jekyll.html">
-      Welcome to Jekyll!<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Nov 20, 2023</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/jekyll/update/2023/11/20/welcome-to-jekyll.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/jekyll/update/2023/11/20/welcome-to-jekyll.html">
-      <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according ... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/markdown/2018/12/05/an-exhibit-of-markdown.html">
-      An exhibit of Markdown<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Dec 05, 2018</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/markdown/2018/12/05/an-exhibit-of-markdown.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/markdown/2018/12/05/an-exhibit-of-markdown.html">
-      <p>This note demonstrates some of what Markdown is capable of doing.
-
-An exhibit of Markdown
-
-Note: Feel free to play with this page. Unlike regular notes, this doesn’t automatically save itself.
-
-Basic formatting
-
-Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags">
-<a class="post-tag" href="/tags.html#example">#example</a><a class="post-tag" href="/tags.html#markdown">#markdown</a>
-</div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/markdown/2018/05/26/mathjax-test.html">
-      Mathjax Test<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> May 26, 2018</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/markdown/2018/05/26/mathjax-test.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/markdown/2018/05/26/mathjax-test.html">
-      <p>
-  A safe integer is an integer that
-    
-      can be exactly represented as an IEEE-754 double precision number, and
-      whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation
-    
-  
-  For example, $ 2 ^ {53} - 1 $ is a safe integer,
-    
-      it can be exactly represented
-    
-  
-
- <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#test">#test</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/example/2017/12/18/video-example.html">
-      Video example<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Dec 18, 2017</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 3 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/example/2017/12/18/video-example.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/example/2017/12/18/video-example.html">
-      <p>Canon in D (Pachelbel’s Canon) - Cello &amp; Piano [BEST WEDDING VERSION]
-Some of you know that we occasionally play for weddings. As you can imagine, we get a LOT of requests for Canon in D, and we discovered that there were no good arrangements available anywhere for piano and cello! Hard to believe given its popularity. So we decided to make ... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#video">#video</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/example/2017/12/15/table-example.html">
-      Table example<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Dec 15, 2017</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/example/2017/12/15/table-example.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/example/2017/12/15/table-example.html">
-      <p>Table example as below
-
-For now, these extended features are provided:
-
-
-  Cells spanning multiple columns
-  Cells spanning multiple rows
-  Cells text align separately
-  Table header not required
-  Grouped table header rows or data rows
-
-
-Rowspan and Colspan
-^^ in a cell indicates it should be merged with the cell above.
-This feature is contribu... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#table">#table</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/example/2017/12/08/mermaid-example.html">
-      Mermaid example<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Dec 08, 2017</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/example/2017/12/08/mermaid-example.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/example/2017/12/08/mermaid-example.html">
-      <p>1. Pie chart
-
-
-
-2. sequence diagram
-
-
-
-
-
-3. Class diagram
-
-
-4. State diagram
-
- <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#mermaid">#mermaid</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/example/2017/12/04/plantuml-example.html">
-      Plantuml example<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Dec 04, 2017</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/example/2017/12/04/plantuml-example.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/example/2017/12/04/plantuml-example.html">
-      <p>My First PlantUML
-
-PlantUML Block-1
-
-
-PlantUML Block-2
-
-
-PlantUML Block-3
-
-
-PlantUML Block-4
-
-
- <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#plantuml">#plantuml</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/junk/2017/05/20/this-post-demonstrates-post-content-styles.html">
-      This post demonstrates post content styles<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> May 20, 2017</span><span class="post-author left-vsplit"><i class="fa fa-pencil"></i> Bart Simpson</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 4 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/junk/2017/05/20/this-post-demonstrates-post-content-styles.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/junk/2017/05/20/this-post-demonstrates-post-content-styles.html">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
-Some great heading (h2)
-
-Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, m... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/junk/2016/08/12/my-example-post.html">
-      My Example Post<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Aug 12, 2016</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/junk/2016/08/12/my-example-post.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/junk/2016/08/12/my-example-post.html">
-      <p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id i... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/misc/2016/05/20/super-long-article.html">
-      Some articles are just so long they deserve a really long title to see if things will break well<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> May 20, 2016</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/misc/2016/05/20/super-long-article.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/misc/2016/05/20/super-long-article.html">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lo... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/misc/2016/05/19/super-short-article.html">
-      Some articles are just so short that we have to make the footer stick<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> May 19, 2016</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/misc/2016/05/19/super-short-article.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/misc/2016/05/19/super-short-article.html">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur s... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/markdown/2016/01/01/another-test-markdown.html">
-      Another test markdown<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Jan 01, 2016</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 10 mins</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/markdown/2016/01/01/another-test-markdown.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/markdown/2016/01/01/another-test-markdown.html">
-      <p>Put the math expression within $…$:
-
-\(\LaTeX{}\)
-
-$\Pi$
-
-$ a * b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-\( \int_a^b f(x)\,dx. \)
-
-$$
-\begin{cases}
-\text{if true}\ foo 
-\text{if false}\ bar
-\end{cases}
-$$
-
-
-  
-    
-      $ \rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )
-      \phi _i^\sigma ({\bf{... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#test">#test</a></div>
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<li class="post-item ">
-  <h2 class="post-title">
-    <a class="post-link" href="/markdown/2015/02/28/test-markdown.html">
-      Test markdown<span class="post-badges">
-  <span class="post-badge badge-top">TOP</span>
-  <span class="post-badge badge-new">NEW</span>
-</span>
-</a>
-  </h2>
-  <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> Feb 28, 2015</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
-  </div>
-  <div class="post-excerpt">
-<a class="post-image" href="/markdown/2015/02/28/test-markdown.html" style="flex: 0 1 38.2%">
-      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
-    </a><a class="post-text" href="/markdown/2015/02/28/test-markdown.html">
-      <p>You can write regular markdown here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-Here is some bold text
-
-Here is a secondary heading
-
-Here’s a useless table:
-
-
-  
-   ... <span class="read_more">Read More</span></p>
-    </a>
-  </div>
-  <div class="post-tags"><a class="post-tag" href="/tags.html#test">#test</a></div>
-</li>
 </ul>
 
-  <!-- Pagination links -->
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/<username>" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/<username>" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
 </div>
-</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
 
-
-  </section>
-  <section class="sidebar" style="margin-left: 15px;">
-    <!-- Get sidebar items -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="common-list">
-  <ul>
-    <li>
-      <a href="/index.html">
-        All<span>15</span>
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
       </a>
-    </li>
-
-    
-      <li>
-        <a href="/categories.html#h-example">
-          example <span>4</span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories.html#h-jekyll">
-          jekyll <span>2</span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories.html#h-junk">
-          junk <span>2</span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories.html#h-markdown">
-          markdown <span>5</span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories.html#h-misc">
-          misc <span>2</span>
-        </a>
-      </li>
-    
-      <li>
-        <a href="/categories.html#h-update">
-          update <span>1</span>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
-</section>
-</div>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-    <div class="site-footer-inner">
-<div>Unpublished Work <span class="copyleft">©</span> 2017-2023 GitHub User</div>
-      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
-      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
-      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
-      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
-</div>
+      <div class="nav-span"></div>
     </div>
   </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-blog"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+  
+
+
+  
+
+  
+
+
+
+
+
+<article id="post-example-introducing-hydejack-9" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/example/2020-07-03-introducing-hydejack-9/" class="flip-title">
+        Introducing Hydejack 9
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2020-07-03T00:00:00+09:00">03 Jul 2020</time> in <a href="/example/" class="flip-title">Example</a> 
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 2024-01-02">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2024-01-02T11:35:43+09:00">2024-01-02</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      <a href="/example/2020-07-03-introducing-hydejack-9/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/jeremy-bishop@0,5x.jpg"
+    
+    
+  
+  alt="Introducing Hydejack 9"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/example/2020-07-03-introducing-hydejack-9/">Introducing Hydejack 9</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-example-example-content-iii" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/example/2018-06-01-example-content-iii/" class="flip-title">
+        Example Content III
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2018-06-01T00:00:00+09:00">01 Jun 2018</time> in <a href="/example/" class="flip-title">Example</a> 
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 2024-01-02">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2024-01-02T11:35:43+09:00">2024-01-02</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      <a href="/example/2018-06-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/example-content-iii.jpg"
+    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
+    
+  
+  alt="Example Content III"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      A page showing Hydejack-specific markdown content.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hydejack offers a few additional features to markup your markdown.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/example/2018-06-01-example-content-iii/">Example Content III</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-example-example-content-ii" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/example/2017-11-23-example-content-ii/" class="flip-title">
+        Example Content II
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2017-11-23T00:00:00+09:00">23 Nov 2017</time> in <a href="/example/" class="flip-title">Example</a> 
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 2024-01-02">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2024-01-02T11:35:43+09:00">2024-01-02</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      <a href="/example/2017-11-23-example-content-ii/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/example-content-ii.jpg"
+  
+  alt="Example Content II"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      A page showing how regular markdown content is styled in Hydejack.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/example/2017-11-23-example-content-ii/">Example Content II</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-example-example-content" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/example/2012-02-07-example-content/" class="flip-title">
+        Example Content
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2012-02-07T00:00:00+09:00">07 Feb 2012</time> in <a href="/example/" class="flip-title">Example</a> 
+      </span>
+      
+    </div>
+
+    
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/example/2012-02-07-example-content/">Example Content</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+
+
+  <h2 class="sr-only">Pagination</h2>
+<nav class="pagination heading clearfix" role="navigation">
+  <ul>
+    <li class="pagination-item older" >
+      
+      
+      
+  <span class=" ">Older</span>
+
+
+    </li>
+    <li class="pagination-item newer" >
+      
+      
+      
+  <span class=" ">Newer</span>
+
+
+    </li>
+  </ul>
+</nav>
+
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.5</span></small></p>
+  <hr class="sr-only"/>
 </footer>
+
+
+</main>
+
+  
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.5.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.5.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <clap-config>
+    <clap-text at="1">Keep going!</clap-text>
+    <clap-text at="2">Keep going ×2!</clap-text>
+    <clap-text at="3">Give me more!</clap-text>
+    <clap-text at="5">Thank you, thank you</clap-text>
+    <clap-text at="7">Far too kind!</clap-text>
+    <clap-text at="10">Never gonna give me up?</clap-text>
+    <clap-text at="14">Never gonna let me down?</clap-text>
+    <clap-text at="20">Turn around and desert me!</clap-text>
+    <clap-text at="30">You're an addict!</clap-text>
+    <clap-text at="40">Son of a clapper!</clap-text>
+    <clap-text at="50">No way</clap-text>
+    <clap-text at="60">Go back to work!</clap-text>
+    <clap-text at="70">This is getting out of <em>hand</em></clap-text>
+    <clap-text at="80">Unbelievable</clap-text>
+    <clap-text at="90">PREPOSTEROUS</clap-text>
+    <clap-text at="100">I N S A N I T Y</clap-text>
+    <clap-text at="185"><span style="font-family:monospace">FEED ME A STRAY CAT</span></clap-text>
+  </clap-config>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
 </body>
 </html>
